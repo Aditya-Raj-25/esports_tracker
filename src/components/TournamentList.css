@@ -1,0 +1,148 @@
+/* TournamentList.css */
+
+.tournament-list-section {
+    padding-top: 3rem;
+    /* py-12 */
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    /* px-4 */
+    padding-right: 1rem;
+    max-width: 80rem;
+    /* max-w-7xl */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 640px) {
+    .tournament-list-section {
+        padding-left: 1.5rem;
+        /* sm:px-6 */
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tournament-list-section {
+        padding-left: 2rem;
+        /* lg:px-8 */
+        padding-right: 2rem;
+    }
+}
+
+.tournament-list-header {
+    margin-bottom: 2rem;
+    /* mb-8 */
+}
+
+.tournament-list-title {
+    font-size: 1.875rem;
+    /* text-3xl */
+    font-weight: 700;
+    /* font-bold */
+    color: white;
+    margin-bottom: 0.5rem;
+    /* mb-2 */
+}
+
+.tournament-list-description {
+    color: #9ca3af;
+    /* text-gray-400 */
+}
+
+.tournament-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    /* gap-6 */
+}
+
+@media (min-width: 768px) {
+    .tournament-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* md:grid-cols-2 */
+    }
+}
+
+@media (min-width: 1024px) {
+    .tournament-grid {
+        grid-template-columns: repeat(3, 1fr);
+        /* lg:grid-cols-3 */
+    }
+}
+
+.tournament-link {
+    display: block;
+}
+
+.flex-justify-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tournament-info {
+    color: #9ca3af;
+    /* text-gray-400 */
+    font-size: 0.875rem;
+    /* text-sm */
+}
+
+.tournament-name {
+    margin-top: 0.5rem;
+    /* mt-2 */
+    font-size: 1.25rem;
+    /* text-xl */
+    font-weight: 600;
+    /* font-semibold */
+    color: white;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.tournament-prize {
+    display: block;
+    color: #fbbf24;
+    /* text-yellow-400 */
+    font-weight: 700;
+    /* font-bold */
+}
+
+.tournament-teams {
+    font-size: 0.75rem;
+    /* text-xs */
+    color: #6b7280;
+    /* text-gray-500 */
+}
+
+.flex-items-center {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* mb-4 */
+    color: #9ca3af;
+    /* text-gray-400 */
+    font-size: 0.875rem;
+    /* text-sm */
+}
+
+.icon-margin-right {
+    margin-right: 0.5rem;
+    /* mr-2 */
+}
+
+.flex-justify-between-sm {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    /* text-sm */
+}
+
+.text-gray-500 {
+    color: #6b7280;
+}
+
+.text-white {
+    color: white;
+}
