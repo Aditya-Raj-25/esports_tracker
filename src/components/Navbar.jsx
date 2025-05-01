@@ -105,7 +105,7 @@
 // export default Navbar;
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Search, Globe } from 'lucide-react';
-import { Link } from './ui/Link';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {

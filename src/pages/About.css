@@ -1,0 +1,54 @@
+.about-container {
+    max-width: 40rem;
+    margin: 2.5rem auto;
+    padding: 1.5rem;
+    background-color: #2d3748;
+    /* Tailwind gray-800 */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+}
+
+.about-profile-image {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 9999px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.about-name {
+    font-size: 1.875rem;
+    /* text-3xl */
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.about-email {
+    margin-bottom: 0.5rem;
+    color: #63b3ed;
+    /* Tailwind blue-400 */
+    text-decoration: none;
+}
+
+.about-email:hover {
+    text-decoration: underline;
+}
+
+.about-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.about-link {
+    color: #63b3ed;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.about-link:hover {
+    text-decoration: underline;
+}
